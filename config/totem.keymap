@@ -192,10 +192,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp F1           &kp F2             &kp F3            &kp F4        &kp F5       &kp HOME          &none          &kp UP_ARROW     &none      &kp PAGE_UP
-        &kp F6           &kp F7             &kp F8            &kp F9        &kp F10      &kp END           &kp LEFT       &kp DOWN         &kp RIGHT  &kp PAGE_DOWN
-&trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp F11       &kp F12      &kp LG(LS(LEFT))  &kp F1         &none            &none      &none          &tog 0
-                                            &kp LSHIFT        &kp LEFT_ALT  &kp LCTRL    &kp RCTRL         &kp RIGHT_ALT  &kp RIGHT_SHIFT
+        &kp F1           &kp F2             &kp F3            &kp F4        &kp F5       &kp HOME          &none              &kp UP_ARROW     &none      &kp PAGE_UP
+        &kp F6           &kp F7             &kp F8            &kp F9        &kp F10      &kp END           &kp LEFT           &kp DOWN         &kp RIGHT  &kp PAGE_DOWN
+&trans  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &kp F11       &kp F12      &kp LC(LG(LEFT))  &kp RC(RG(RIGHT))  &none            &none      &none          &tog 0
+                                            &kp LSHIFT        &kp LEFT_ALT  &kp LCTRL    &kp RCTRL         &kp RIGHT_ALT      &kp RIGHT_SHIFT
             >;
         };
 
