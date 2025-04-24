@@ -100,7 +100,7 @@
         combo_backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <8 7>;
-            layers = <0>;
+            layers = <0 1 2>;
         };
     };
 
