@@ -92,8 +92,14 @@
         };
 
         combo_cap_words {
-            bindings = <&caps_word>;
+            bindings = <&sk LSHIFT>;
             key-positions = <35 34>;
+            layers = <0>;
+        };
+
+        combo_backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 7>;
             layers = <0>;
         };
     };
