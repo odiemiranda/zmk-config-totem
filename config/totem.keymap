@@ -44,6 +44,31 @@
             bindings = <&kp TAB>;
             key-positions = <1 2>;
             layers = <0>;
+            timeout-ms = <50>;
+        };
+
+        combo_lshift {
+            bindings = <&kp LSHFT>;
+            key-positions = <11 12>;
+            layers = <0>;
+            timeout-ms = <50>;
+        };
+
+        combo_rshift {
+            bindings = <&kp RSHIFT>;
+            key-positions = <18 17>;
+            layers = <0>;
+            timeout-ms = <50>;
+        };
+
+        combo_leyer1 {
+            bindings = <&tog 1>;
+            key-positions = <5 4>;
+        };
+
+        combo_layer2 {
+            bindings = <&tog 2>;
+            key-positions = <14 15>;
         };
     };
 
