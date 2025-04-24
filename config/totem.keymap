@@ -60,6 +60,12 @@
             timeout-ms = <50>;
         };
 
+        combo_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <18 17 16>;
+            layers = <0>;
+        };
+
         combo_leyer1 {
             bindings = <&tog 1>;
             key-positions = <5 4>;
@@ -78,12 +84,6 @@
         combo_layer4 {
             bindings = <&tog 4>;
             key-positions = <31 20>;
-        };
-
-        combo_enter {
-            bindings = <&kp ENTER>;
-            key-positions = <18 17 16>;
-            layers = <0>;
         };
 
         combo_layer5 {
@@ -245,6 +245,14 @@
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
         bt_layer {
+
+            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+            label = "BT";
+
+            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
             bindings = <
                 &bt BT_CLR  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1    &trans  &trans  &trans  &trans  &trans
                 &trans      &trans  &trans  &bt BT_SEL 2  &bt BT_SEL 3    &trans  &trans  &trans  &trans  &trans
