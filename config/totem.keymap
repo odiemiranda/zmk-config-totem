@@ -37,11 +37,13 @@
             timeout-ms = <50>;
             key-positions = <0 1>;
             bindings = <&kp ESC>;
+            layers = <0>;
         };
 
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <1 2>;
+            layers = <0>;
         };
     };
 
