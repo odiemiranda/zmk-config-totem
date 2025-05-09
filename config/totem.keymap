@@ -102,6 +102,36 @@
             key-positions = <8 7>;
             layers = <0 1 2 3>;
         };
+
+        mo_number_right {
+            bindings = <&mo 1>;
+            key-positions = <27 28>;
+        };
+
+        mo_number_left {
+            bindings = <&mo 1>;
+            key-positions = <24 23>;
+        };
+
+        mo_symbol_left {
+            bindings = <&mo 2>;
+            key-positions = <23 22>;
+        };
+
+        mo_symbol_right {
+            bindings = <&mo 2>;
+            key-positions = <29 28>;
+        };
+
+        mo_nav_right {
+            bindings = <&mo 3>;
+            key-positions = <27 26>;
+        };
+
+        mo_nav_left {
+            bindings = <&mo 3>;
+            key-positions = <25 24>;
+        };
     };
 
     macros {
