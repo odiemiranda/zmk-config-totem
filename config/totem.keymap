@@ -207,7 +207,7 @@
             bindings = <
         &kp ASTERISK          &kp SLASH              &kp PLUS      &kp MINUS   &kp EQUAL      &kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA
         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COMMA     &kp PERIOD  &kp PERCENT    &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD
-&trans  &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION  &kp COLON   &none          &none      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &to 0
+&trans  &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION  &kp COLON   &kp DOLLAR     &none      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &to 0
                                                      &trans        &trans      &kp SPACE      &kp SPACE  &trans        &trans
             >;
         };
