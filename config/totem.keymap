@@ -125,12 +125,12 @@
 
         mo_nav_right {
             bindings = <&mo 3>;
-            key-positions = <27 26>;
+            key-positions = <27 29>;
         };
 
         mo_nav_left {
             bindings = <&mo 3>;
-            key-positions = <25 24>;
+            key-positions = <24 22>;
         };
 
         combo_enter_left {
