@@ -92,7 +92,7 @@
         };
 
         combo_temp_shift {
-            bindings = <&sk LSHIFT>;
+            bindings = <&kp CAPS>;
             key-positions = <35 34>;
             layers = <0>;
         };
